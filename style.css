@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    filter: blur(50%);
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.container > div:nth-of-type(1)
+{
+    grid-column: 1/2;
+}
+.container > div{
+    height: 200px;
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.9);
+
+}
+.photo-1{
+    background-image: url('images/location.jpeg');
+    color: black;
+}
+.photo-2{
+    background-image: url('images/mobile.jpg');
+}
+.photo-3{
+    background-image: url('images/sleep.jpg');
+}
+.photo-4{
+    background-image: url('images/run.jpg');
+}
+.photo-5{
+    background-image: url('images/plane.jpg');
+}
+.photo-6{
+    background-image: url('images/music.jpg');
+}
+.photo-7{
+    background-image: url('images/globe.jpeg');
+}
+.photo-8{
+    background-image: url('images/fake-smile.jpg');
+}
+.photo-9{
+    background-image: url('images/star.jpg');
+}
+.photo-10{
+    background-image: url('images/slack.png');
+    color: black;
+}
+.photo-11{
+    background-image: url('images/biccyle.jpg');
+    color: black;
+}
+.photo-12{
+    background-image: url('images/battery.jpg');
+    color: black;
+}
